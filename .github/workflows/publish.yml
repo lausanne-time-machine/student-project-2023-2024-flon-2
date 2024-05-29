@@ -2,7 +2,7 @@ name: Publish
 on:
   workflow_dispatch:
   push:
-    branches: ["main"]
+    branches: ["deploy"]
 permissions:
   contents: write
 jobs:
